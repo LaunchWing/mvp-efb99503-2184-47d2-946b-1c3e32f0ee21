@@ -1,0 +1,6 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const getStartedButton = document.querySelector('button');
+    getStartedButton.addEventListener('click', () => {
+        alert('Welcome to ResumeCraft AI! Start crafting your resume today.');
+    });
+});
